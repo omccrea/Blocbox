@@ -8,7 +8,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
 }
-
 h2 {
   font-size:28px;
   font-weight: normal;
@@ -28,12 +27,12 @@ p {
   padding-right: 15px;
   position: relative;
 }
-.container:before,
-.container:after {
+.container: before,
+.container: after {
   content: " ";
   display: table;
 }
-.container:after {
+.container: after {
   clear: both;
 }
 .one-half, .one-third, .one-fourth {
@@ -105,25 +104,26 @@ header nav ul > li.btn-outline:hover > a {
   color:#032B45;
 }
 header .hero {
-  text-align: center;
+  text-align:center;
   display:block;
-  position: relative;
+  position:relative;
 }
 header .hero h1 {
   font-size:48px;
-  font-weight: normal;
+  font-weight:normal;
   margin:95px 0 0;
 }
 header .hero p {
   font-size: 22px;
   line-height: 26px;
   font-weight: 100;
-  margin:10px 0 40px;
+  margin: 10px 0 40px;
 }
 header .hero img {
   display: block;
   margin:3em auto 0;
 }
+
 /* BUTTONS */
 .btn {
   border-radius: 4px;
