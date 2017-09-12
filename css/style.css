@@ -8,9 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
 }
-h1 {
-  .animated: fadeIn;
-}
+
 h2 {
   font-size:28px;
   font-weight: normal;
