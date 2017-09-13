@@ -310,3 +310,74 @@ header .hero img {
 .testimonials .container li:nth-of-type(even) {
   padding-top: 20px;
 }
+
+/* CALL TO ACTION */
+.call {
+  background: #B9DDF1;
+  padding:4em 0;
+  text-align: center;
+}
+.call h2 {
+  color:#043A5D;
+  padding-bottom: 15px;
+}
+.call p {
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  color:#333333;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 100;
+  margin:10px 0 40px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #043A5D;
+  background-image: linear-gradient(to top,
+     #3498DB 0%, #3498DB 50%, #043A5D 50%, #043A5D 100%);
+  color: #FFFFFF;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+footer p, footer nav ul {
+  font-size:14px;
+  font-weight:100;
+  text-align: center;
+  margin: 10px auto 0;
+}
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+footer nav ul li a {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+footer .right-footer-block {
+  background-color: transparent;
+}
+footer .logo{
+  padding: 2.35em 0;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 992px){
+  footer{
+    background-color: #3498DB;
+    background-image: linear-gradient(to left,
+       #3498DB 0%, #3498DB 33.33337%, #043A5D 33.33337%, #043A5D 100%);
+    height: 100px;
+  }
+  footer p, footer nav ul{
+    padding: 2em 0;
+    text-align: left;
+  }
+  footer .right-footer-block {
+    background-color: #3498DB;
+  }
+  footer .logo{
+    padding: 2em 0 2em 1.5em;
+  }
+}
