@@ -307,3 +307,6 @@ header .hero img {
   font-size:13px;
   margin-top: 30px;
 }
+.testimonials .container li:nth-of-type(even) {
+  padding-top: 20px;
+}
