@@ -27,12 +27,12 @@ p {
   padding-right: 15px;
   position: relative;
 }
-.container: before,
-.container: after {
+.container:before,
+.container:after {
   content: " ";
   display: table;
 }
-.container: after {
+.container:after {
   clear: both;
 }
 .one-half, .one-third, .one-fourth {
@@ -71,8 +71,8 @@ p {
 /* HEADER */
 header {
   color:#FFFFFF;
-  background: #FFFFFF;
-  background-image: linear-gradient(206deg, #0878A2 0%, #043A5D 88%);
+  background: #ffffff;
+  background-image: linear-gradient(206deg, #0878A2 0%, #043A5D 80%);
 }
 header nav {
   padding:1em 0;
@@ -101,30 +101,50 @@ header nav ul > li > a {
   text-decoration: none;
 }
 header nav ul > li.btn-outline:hover > a {
-  color:#032B45;
+  color:#043A5D;
 }
 header .hero {
-  text-align:center;
+  text-align: center;
   display:block;
-  position:relative;
+  position: relative;
 }
 header .hero h1 {
-  font-size:48px;
-  font-weight:normal;
-  margin:95px 0 0;
+  font-size:32px;
+  font-weight: normal;
+  margin:10px 0 0 0;
 }
 header .hero p {
-  font-size: 22px;
+  font-size: 16px;
   line-height: 26px;
   font-weight: 100;
-  margin: 10px 0 40px;
+  margin:10px 0 40px;
 }
 header .hero img {
   display: block;
   margin:3em auto 0;
+  width: 90%;
+  max-width: 654px;
+}
+@media (min-width: 992px) {
+  header nav ul {
+    display:inline;
+    text-alight: right;
+    float: right;
+    margin:0;
+  }
+  header .hero h1 {
+    font-size: 48px;
+    margin: 55px 0 0;
+  }
+  header .hero p {
+    font-size: 22px;
+  }
+  header .hero img {
+    width: 100%;
+  }
 }
 
-/* BUTTONS */
+  /* BUTTONS */
 .btn {
   border-radius: 4px;
   color:#FFFFFF;
