@@ -461,6 +461,12 @@ footer .logo{
   text-align: center;
   margin-right:8px;
 }
+.active {
+  background-color:#15A9E0;
+  background-size: cover;
+  position: relative;
+  padding: 5px 0;
+}
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
   position:absolute;
