@@ -2,7 +2,7 @@ html, body{
   overflow-x: hidden;
 }
 body {
-  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-family: "Libre+Franklin", Helvetica, Arial, sans-serif;
   color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -220,7 +220,7 @@ header .hero img {
   min-height: 485px;
 }
 .box h3 {
-  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-family: "Libre+Franklin", Helvetica, Arial, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   background: #E2E2E2;
@@ -243,7 +243,7 @@ header .hero img {
   vertical-align: top;
 }
 .box h4 span.month {
-  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-family: "Libre+Franklin", Helvetica, Arial, sans-serif;
   font-weight: 100;
   color:#888888;
   font-size:20px;
@@ -353,7 +353,7 @@ header .hero img {
   padding-bottom: 15px;
 }
 .call p {
-  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-family: "Libre+Franklin", Helvetica, Arial, sans-serif;
   color:#333333;
   font-size: 18px;
   line-height: 20px;
@@ -488,47 +488,53 @@ footer .logo{
   }
 }
 .left-nav .site-logo {
-  padding:10px 0;
-  background:#043A5D;
+  padding:20px 10px;
+  background:#072d44;
   display:block;
   text-align: center;
 }
+.left-nav .site-logo img {
+  width: 80%;
+}
 .left-nav .items {
-  padding:0 6%;
+  padding: 0 6%
 }
 .left-nav .items p {
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 12px;
-  color: #DEDEDE;
+  color: #E2E2E2;
   line-height: 15px;
 }
 .left-nav .items ul {
-  margin:0 0 40px;
-  padding:0;
+  margin:0 0 10px;
+  padding: 10px 0 10px 10px;
+  text-align: left;
 }
 .left-nav .items ul li {
   list-style-type: none;
   margin-bottom: 15px;
 }
 .left-nav .items ul li a {
-  color:#DEDEDE;
+  color:#FFFFFF;
   text-decoration: none;
   font-weight: 100;
 }
-.left-nav .items ul li a i {
-  width:16px;
-  text-align: center;
-  margin-right:8px;
+.active {
+  background-color: #15A9E0;
+  position: relative;
+  width: 100%;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
-.left-nav .items .active a {
-  color: #FFFFFF;
-  font-size: 18px;
-}
+
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
   position:absolute;
-  background:#22303E;
+  background:#072d44;
   width:100%;
   bottom:0;
   left:0;
@@ -568,11 +574,11 @@ footer .logo{
   margin:0 1% 20px;
 }
 .content .header h1 {
-  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-family: "Libre+Franklin", Helvetica, Arial, sans-serif;
   font-weight: 100;
   margin:0 0 30px;
   font-size: 36px;
-  color: #043A5D;
+  color: #3498DB;
   line-height: 44px;
   float: left;
   display:inline-block;
@@ -652,7 +658,7 @@ footer .logo{
    right:0;
  }
  .item-box h2 {
-   font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+   font-family: 'Libre+Franklin', Helvetica, Arial, sans-serif;
    font-weight: 700;
    font-size: 15px;
    line-height: 17px;
